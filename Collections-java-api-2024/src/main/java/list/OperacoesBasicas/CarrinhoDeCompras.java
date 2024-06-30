@@ -1,6 +1,6 @@
-package main.java.OperacoesBasicas;
+package main.java.list.OperacoesBasicas;
 
-import main.java.list.OperacoesBasicas.ListaTarefa;import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CarrinhoDeCompras {
@@ -60,7 +60,7 @@ public class CarrinhoDeCompras {
 
     public static void main(String[] args) {
         // Criando uma instância do carrinho de compras
-        ListaTarefa.CarrinhoDeCompras carrinhoDeCompras = new ListaTarefa.CarrinhoDeCompras();
+        CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
 
         // Adicionando itens ao carrinho
         carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
